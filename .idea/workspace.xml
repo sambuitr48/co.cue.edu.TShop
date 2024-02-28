@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e0095270-fa4f-433e-a201-ae075ab3093a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/application/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dto/DTOToy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mapping/ToyMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/models/Toy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/models/TypeToy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/ToyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/impl/ServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/FUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ServiceImplTestTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Record" />
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2cyiY82DxGEMcVUjF7xnYn5HmrB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "JUnit.ServiceImplTestTest.AllToys_Test.executor": "Run",
+    "JUnit.ServiceImplTestTest.addToy_Exception.executor": "Run",
+    "JUnit.ServiceImplTestTest.addToy_Test.executor": "Run",
+    "JUnit.ServiceImplTestTest.decreaseQuantity.executor": "Run",
+    "JUnit.ServiceImplTestTest.filterByPrice_Test.executor": "Run",
+    "JUnit.ServiceImplTestTest.findByName_Test.executor": "Run",
+    "JUnit.ServiceImplTestTest.increaseTotal_Test.executor": "Run",
+    "JUnit.ServiceImplTestTest.mnToy_Test.executor": "Run",
+    "JUnit.ServiceImplTestTest.mxToy_Test.executor": "Run",
+    "JUnit.ServiceImplTestTest.showByType_Test.executor": "Run",
+    "JUnit.ServiceImplTestTest.sortByQuantity_Test.executor": "Run",
+    "JUnit.ServiceImplTestTest.totalCount_Test.executor": "Run",
+    "JUnit.ServiceImplTestTest.totalValue_Test.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ServiceImplTestTest.addToy_Test">
+    <configuration name="ServiceImplTestTest.AllToys_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="co.cue.edu.segToys" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ServiceImplTestTest" />
+      <option name="METHOD_NAME" value="AllToys_Test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceImplTestTest.addToy_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="co.cue.edu.segToys" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ServiceImplTestTest" />
+      <option name="METHOD_NAME" value="addToy_Test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceImplTestTest.filterByPrice_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="co.cue.edu.segToys" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ServiceImplTestTest" />
+      <option name="METHOD_NAME" value="filterByPrice_Test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceImplTestTest.findByName_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="co.cue.edu.segToys" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ServiceImplTestTest" />
+      <option name="METHOD_NAME" value="findByName_Test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceImplTestTest.sortByQuantity_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="co.cue.edu.segToys" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ServiceImplTestTest" />
+      <option name="METHOD_NAME" value="sortByQuantity_Test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ServiceImplTestTest.addToy_Test" />
+        <item itemvalue="JUnit.ServiceImplTestTest.findByName_Test" />
+        <item itemvalue="JUnit.ServiceImplTestTest.AllToys_Test" />
+        <item itemvalue="JUnit.ServiceImplTestTest.sortByQuantity_Test" />
+        <item itemvalue="JUnit.ServiceImplTestTest.filterByPrice_Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e0095270-fa4f-433e-a201-ae075ab3093a" name="Changes" comment="" />
+      <created>1709090270866</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709090270866</updated>
+      <workItem from="1709090271966" duration="12786000" />
+      <workItem from="1709121223647" duration="10265000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
