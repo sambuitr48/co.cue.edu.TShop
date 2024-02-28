@@ -9,8 +9,8 @@ import utils.Constants;
 import utils.FUtils;
 
 import java.io.File;
-import java.lang.reflect.Type;
 import java.util.*;
+import java.util.concurrent.Future;
 import java.util.stream.Collectors;
 
 public class ServiceImpl implements ToyService {
@@ -21,11 +21,12 @@ public class ServiceImpl implements ToyService {
     }
 
     @Override
-    public void addToy(DTOToy toy) throws Exception {
+    public Future<?> addToy(DTOToy toy) throws Exception {
         Toy newToy = ToyMapper.mapFrom(toy);
         toyStore.add(newToy);
         FUtils.savedToys(new File(Constants.TOYS), toyStore);
         AllToys();
+        return null;
     }
 
     @Override

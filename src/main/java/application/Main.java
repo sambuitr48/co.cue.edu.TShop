@@ -6,6 +6,14 @@ import service.ToyService;
 import service.impl.ServiceImpl;
 
 import java.util.Scanner;
+import java.util.concurrent.Future;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
+
+import static application.Case1Thread.addToyAsync;
+import static application.Case1Thread.waitForCompletion;
+
 
 public class Main {
     public static void main(String[] args) {
@@ -40,7 +48,9 @@ public class Main {
                         System.out.println("Toy Quantity: ");
                         int quantity = scanner.nextInt();
                         DTOToy newToy = new DTOToy(name, type, price, quantity);
-                        toyService.addToy(newToy);
+                        Future<?> future = toyService.addToy(newToy);
+                        // Esperar a que la operación asíncrona se complete si es necesario
+                        waitForCompletion(future);
                         break;
                     case 2:
                         System.out.println("\nToys by type: ");

@@ -5,9 +5,10 @@ import models.TypeToy;
 
 import java.util.List;
 import java.util.Map;
+import java.util.concurrent.Future;
 
 public interface ToyService {
-    void addToy(DTOToy toy) throws Exception;
+    Future<?> addToy(DTOToy toy) throws Exception;
     Map<TypeToy, Integer> showByType() throws Exception;
     int totalCount() throws Exception;
     double totalValue() throws Exception;

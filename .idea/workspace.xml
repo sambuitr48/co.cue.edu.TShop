@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0095270-fa4f-433e-a201-ae075ab3093a" name="Changes" comment="" />
+    <list default="true" id="e0095270-fa4f-433e-a201-ae075ab3093a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/application/Case1Thread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/application/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,8 +20,8 @@
         <option value="Record" />
         <option value="Enum" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -33,39 +37,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ServiceImplTestTest.AllToys_Test.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ServiceImplTestTest.addToy_Exception.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ServiceImplTestTest.addToy_Test.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ServiceImplTestTest.decreaseQuantity.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ServiceImplTestTest.filterByPrice_Test.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ServiceImplTestTest.findByName_Test.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ServiceImplTestTest.increaseTotal_Test.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ServiceImplTestTest.mnToy_Test.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ServiceImplTestTest.mxToy_Test.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ServiceImplTestTest.showByType_Test.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ServiceImplTestTest.sortByQuantity_Test.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ServiceImplTestTest.totalCount_Test.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ServiceImplTestTest.totalValue_Test.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Case1Thread.executor": "Run",
+    "Application.Main.executor": "Run",
+    "JUnit.ServiceImplTestTest.AllToys_Test.executor": "Run",
+    "JUnit.ServiceImplTestTest.addToy_Exception.executor": "Run",
+    "JUnit.ServiceImplTestTest.addToy_Test.executor": "Run",
+    "JUnit.ServiceImplTestTest.decreaseQuantity.executor": "Run",
+    "JUnit.ServiceImplTestTest.filterByPrice_Test.executor": "Run",
+    "JUnit.ServiceImplTestTest.findByName_Test.executor": "Run",
+    "JUnit.ServiceImplTestTest.increaseTotal_Test.executor": "Run",
+    "JUnit.ServiceImplTestTest.mnToy_Test.executor": "Run",
+    "JUnit.ServiceImplTestTest.mxToy_Test.executor": "Run",
+    "JUnit.ServiceImplTestTest.showByType_Test.executor": "Run",
+    "JUnit.ServiceImplTestTest.sortByQuantity_Test.executor": "Run",
+    "JUnit.ServiceImplTestTest.totalCount_Test.executor": "Run",
+    "JUnit.ServiceImplTestTest.totalValue_Test.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -74,7 +79,33 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ServiceImplTestTest.addToy_Test">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Case1Thread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="application.Case1Thread" />
+      <module name="co.cue.edu.segToys" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="application.Main" />
+      <module name="co.cue.edu.segToys" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ServiceImplTestTest.AllToys_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="co.cue.edu.segToys" />
       <option name="PACKAGE_NAME" value="" />
@@ -95,16 +126,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServiceImplTestTest.filterByPrice_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="co.cue.edu.segToys" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ServiceImplTestTest" />
-      <option name="METHOD_NAME" value="filterByPrice_Test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ServiceImplTestTest.findByName_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="co.cue.edu.segToys" />
       <option name="PACKAGE_NAME" value="" />
@@ -115,23 +136,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServiceImplTestTest.sortByQuantity_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="co.cue.edu.segToys" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ServiceImplTestTest" />
-      <option name="METHOD_NAME" value="sortByQuantity_Test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Case1Thread" />
         <item itemvalue="JUnit.ServiceImplTestTest.addToy_Test" />
         <item itemvalue="JUnit.ServiceImplTestTest.findByName_Test" />
         <item itemvalue="JUnit.ServiceImplTestTest.AllToys_Test" />
-        <item itemvalue="JUnit.ServiceImplTestTest.sortByQuantity_Test" />
-        <item itemvalue="JUnit.ServiceImplTestTest.filterByPrice_Test" />
       </list>
     </recent_temporary>
   </component>
@@ -145,11 +156,31 @@
       <updated>1709090270866</updated>
       <workItem from="1709090271966" duration="12786000" />
       <workItem from="1709121223647" duration="10265000" />
-      <workItem from="1709145437988" duration="299000" />
+      <workItem from="1709145437988" duration="3601000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/application/Case1Thread.java</url>
+          <line>51</line>
+          <properties class="application.Case1Thread" method="addToyAsync">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/application/Case1Thread.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
