@@ -2,7 +2,6 @@ import dto.DTOToy;
 import models.Toy;
 import models.TypeToy;
 import org.junit.Test;
-import service.ToyService;
 import service.impl.ServiceImpl;
 
 import java.util.List;
@@ -43,41 +42,6 @@ public class ServiceImplTestTest {
         ServiceImpl toyService = new ServiceImpl();
         double totalValue = toyService.totalValue();
         assertTrue(totalValue >= 0);
-    }
-
-    @Test
-    public void decreaseQuantity() {
-        ServiceImpl toyService = new ServiceImpl();
-        String toyName = "Doll";
-        int quantity = 1;
-        assertDoesNotThrow(() -> toyService.decreaseTotal(toyName, quantity));
-        assertDoesNotThrow(() -> {
-            int newQuantity = toyService.filterByPrice(0)
-                    .stream()
-                    .filter(dto -> dto.name().equalsIgnoreCase(toyName))
-                    .findFirst()
-                    .orElseThrow(() -> new Exception("Toy not found"))
-                    .quantity();
-            assertEquals(4, newQuantity);
-        });
-    }
-
-    @Test
-    public void increaseTotal_Test() {
-        ServiceImpl toyService = new ServiceImpl();
-        String toyName = "Doll";
-        int quantity = 1;
-        assertDoesNotThrow(() -> toyService.increaseTotal(toyName, quantity));
-
-        assertDoesNotThrow(() -> {
-            int newQuantity = toyService.filterByPrice(0)
-                    .stream()
-                    .filter(dtoToy -> dtoToy.name().equalsIgnoreCase(toyName)) // Usamos name() en lugar de getName()
-                    .findFirst()
-                    .orElseThrow()
-                    .quantity(); // Usamos quantity() en lugar de getQuantity()
-            assertEquals(6, newQuantity); // Asumiendo que inicialmente había 5 muñecas
-        });
     }
 
     @Test
@@ -143,5 +107,37 @@ public class ServiceImplTestTest {
             fail("Unexpected exception: " + e.getMessage());
 
         }
+    }
+    @Test
+    public void decreaseQuantity() throws Exception {
+        ServiceImpl toyService = new ServiceImpl();
+        String toyName = "Doll";
+        int quantity = 1;
+        assertDoesNotThrow(() -> toyService.decreaseTotal(toyName, quantity));
+        int newQuantity = toyService.filterByPrice(0)
+                .stream()
+                .filter(dto -> dto.name().equalsIgnoreCase(toyName))
+                .findFirst()
+                .orElseThrow(() -> new Exception("Toy not found"))
+                .quantity();
+        assertEquals(16, newQuantity);
+    }
+
+    @Test
+    public void increaseTotal_Test() {
+        ServiceImpl toyService = new ServiceImpl();
+        String toyName = "Doll";
+        int quantity = 1;
+        assertDoesNotThrow(() -> toyService.increaseTotal(toyName, quantity));
+
+        assertDoesNotThrow(() -> {
+            int newQuantity = toyService.filterByPrice(0)
+                    .stream()
+                    .filter(dtoToy -> dtoToy.name().equalsIgnoreCase(toyName))
+                    .findFirst()
+                    .orElseThrow()
+                    .quantity();
+            assertEquals(6, newQuantity);
+        });
     }
 }

@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0095270-fa4f-433e-a201-ae075ab3093a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/application/Case1Thread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/application/Case1Thread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/Case1Thread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/application/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ServiceImplTestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ServiceImplTestTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/toysarch.txt" beforeDir="false" afterPath="$PROJECT_DIR$/toysarch.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +81,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.ServiceImplTestTest.increaseTotal_Test">
     <configuration name="Case1Thread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="application.Case1Thread" />
       <module name="co.cue.edu.segToys" />
@@ -106,16 +108,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServiceImplTestTest.AllToys_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="co.cue.edu.segToys" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ServiceImplTestTest" />
-      <option name="METHOD_NAME" value="AllToys_Test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ServiceImplTestTest.addToy_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="co.cue.edu.segToys" />
       <option name="PACKAGE_NAME" value="" />
@@ -126,11 +118,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServiceImplTestTest.findByName_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ServiceImplTestTest.decreaseQuantity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="co.cue.edu.segToys" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ServiceImplTestTest" />
-      <option name="METHOD_NAME" value="findByName_Test" />
+      <option name="METHOD_NAME" value="decreaseQuantity" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceImplTestTest.increaseTotal_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="co.cue.edu.segToys" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ServiceImplTestTest" />
+      <option name="METHOD_NAME" value="increaseTotal_Test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -138,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ServiceImplTestTest.increaseTotal_Test" />
+        <item itemvalue="JUnit.ServiceImplTestTest.decreaseQuantity" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Case1Thread" />
         <item itemvalue="JUnit.ServiceImplTestTest.addToy_Test" />
-        <item itemvalue="JUnit.ServiceImplTestTest.findByName_Test" />
-        <item itemvalue="JUnit.ServiceImplTestTest.AllToys_Test" />
       </list>
     </recent_temporary>
   </component>
@@ -156,31 +158,11 @@
       <updated>1709090270866</updated>
       <workItem from="1709090271966" duration="12786000" />
       <workItem from="1709121223647" duration="10265000" />
-      <workItem from="1709145437988" duration="3601000" />
+      <workItem from="1709145437988" duration="4824000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/application/Case1Thread.java</url>
-          <line>51</line>
-          <properties class="application.Case1Thread" method="addToyAsync">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/application/Case1Thread.java</url>
-          <line>55</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

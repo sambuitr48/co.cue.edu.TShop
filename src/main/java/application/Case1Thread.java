@@ -34,7 +34,6 @@ import java.util.concurrent.Future;
                         int quantity = scanner.nextInt();
                         DTOToy newToy = new DTOToy(name, type, price, quantity);
                         Future<?> future = addToyAsync(newToy);
-                        // Esperar a que la operación asíncrona se complete si es necesario
                         waitForCompletion(future);
                         break;
                     case 0:
@@ -44,13 +43,11 @@ import java.util.concurrent.Future;
                         System.out.println("Invalid option.");
                 }
             }
-            // Apagar el ExecutorService al salir
             executor.shutdown();
             scanner.close();
         }
 
         public static Future<?> addToyAsync(DTOToy toy) {
-            // Ejecutar la operación addToy en un hilo separado y devolver un Future
             return executor.submit(() -> {
                 try {
                     toyService.addToy(toy);
@@ -62,7 +59,6 @@ import java.util.concurrent.Future;
 
         public static void waitForCompletion(Future<?> future) {
             try {
-                // Esperar a que la operación asíncrona se complete
                 future.get();
                 System.out.println("Toy added successfully.");
             } catch (Exception e) {
