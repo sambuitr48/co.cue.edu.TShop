@@ -6,7 +6,6 @@ import service.ToyService;
 import service.impl.ServiceImpl;
 
 import java.util.Scanner;
-import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.Future;
 
 import static application.Case1Thread.waitForCompletion;
