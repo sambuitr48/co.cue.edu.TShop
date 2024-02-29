@@ -6,6 +6,7 @@ import service.ToyService;
 import service.impl.ServiceImpl;
 
 import java.util.Scanner;
+import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.Future;
 
 import static application.Case1Thread.waitForCompletion;
@@ -35,6 +36,7 @@ public class Main {
             try {
                 switch (interact){
                     case 1:
+
                         System.out.println("Toy Name: ");
                         String name = scanner.nextLine();
                         System.out.println("Toy Type: 1.Female, 2.Male, 3.Unisex");

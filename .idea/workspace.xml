@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0095270-fa4f-433e-a201-ae075ab3093a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Exceptions/TSExceptions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/application/Case1Thread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/Case1Thread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/application/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ServiceImplTestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ServiceImplTestTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/toysarch.txt" beforeDir="false" afterPath="$PROJECT_DIR$/toysarch.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +80,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ServiceImplTestTest.increaseTotal_Test">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Case1Thread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="application.Case1Thread" />
       <module name="co.cue.edu.segToys" />
@@ -140,9 +139,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.ServiceImplTestTest.increaseTotal_Test" />
         <item itemvalue="JUnit.ServiceImplTestTest.decreaseQuantity" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Case1Thread" />
         <item itemvalue="JUnit.ServiceImplTestTest.addToy_Test" />
       </list>
@@ -158,7 +157,7 @@
       <updated>1709090270866</updated>
       <workItem from="1709090271966" duration="12786000" />
       <workItem from="1709121223647" duration="10265000" />
-      <workItem from="1709145437988" duration="4824000" />
+      <workItem from="1709145437988" duration="7560000" />
     </task>
     <servers />
   </component>
